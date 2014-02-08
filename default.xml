@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="spegelius/android_build" groups="pdk" revision="aosp-4.3" >
+  <project path="build" name="spegelius/android_build" groups="pdk" remote="github" revision="aosp-4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
