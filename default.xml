@@ -24,7 +24,7 @@
   <project path="frameworks/opt/telephony" name="spegelius/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-4.3" />
   
   <project path="system/core" name="spegelius/android_system_core" groups="pdk" remote="github" revision="aosp-4.3" />
-  <project path="vendor/aosp" name="spegelius/android_vendor_aosp" groups="pdk" remote="github" revision="aosp-4.3" />
+  <project path="vendor/aosp" name="spegelius/android_vendor_aosp" remote="github" revision="aosp-4.3" />
 
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-10.2" />
