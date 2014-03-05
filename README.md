@@ -3,6 +3,9 @@ manifests
 
 Manifests for different ROMS
 
-to init AOSP 4.3 for jactiveltexx:
+to init CM11 for jactiveltexx:
 
-repo init -u git://github.com/spegelius/manifests.git -b aosp-4.3
+repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+mkdir .repo/local_manifests
+wget https://raw.github.com/spegelius/manifests/cm-11.0/roomservice.xml -O .repo/local_manifests/roomservice.xml
+repo sync
