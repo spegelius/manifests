@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactiveltexx" remote="github" />
   <project name="spegelius/android_device_samsung_jactivelte-common.git" path="device/samsung/jf-common" remote="github" />
   <project name="spegelius/android_kernel_samsung_jactivelte.git" path="kernel/samsung/jactiveltexx" remote="github" />
+  <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactiveltexx" remote="github" />
 
   <!--project name="LeJay/android_device_samsung_jactivelte" path="device/samsung/jactiveltexx" remote="github" />
   <project name="LeJay/android_device_samsung_jactivelte-common" path="device/samsung/jf-common" remote="github" />
@@ -10,7 +12,7 @@
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" />
+  <!--project name="CyanogenMod/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" /-->
   <!--project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common2" remote="github" /-->
   <!--project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" /-->
 </manifest>
