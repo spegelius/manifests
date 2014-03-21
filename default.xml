@@ -18,6 +18,7 @@
   <project name="spegelius/android_device_samsung_jactivelte-common.git" path="device/samsung/jf-common" remote="github" revision="aosp-4.3" />
   <project name="spegelius/android_kernel_samsung_jactivelte.git" path="kernel/samsung/jactiveltexx" remote="github" revision="cm-10.2" />
   <project name="spegelius/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="aosp-4.3" />
+  <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactiveltexx" remote="github" revision="cm-10.2" />
 
   <project path="frameworks/base" name="spegelius/android_frameworks_base" remote="github" revision="aosp-4.3" />
   <project path="frameworks/native" name="spegelius/android_frameworks_native" groups="pdk" remote="github" revision="aosp-4.3" />
