@@ -30,9 +30,9 @@
   <project path="system/core" name="spegelius/android_system_core" groups="pdk" remote="github" revision="aosp-4.3" /-->
   <project path="vendor/aosp" name="spegelius/android_vendor_aosp" remote="github" revision="aosp-4.3" />
 
-  <!--project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-11.0" /-->
+  <!--project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-11.0" /-->
 
   <!--project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="cm-11.0" />
 
