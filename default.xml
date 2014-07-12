@@ -20,8 +20,8 @@
   <project name="spegelius/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="aosp-4.4" />
   <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0" />
 
-  <project path="frameworks/base" name="spegelius/android_frameworks_base" remote="github" revision="aosp-4.3" />
-  <project path="frameworks/native" name="spegelius/android_frameworks_native" groups="pdk" remote="github" revision="aosp-4.3" />
+  <project path="frameworks/base" name="spegelius/android_frameworks_base" remote="github" revision="aosp-4.4" />
+  <project path="frameworks/native" name="spegelius/android_frameworks_native" groups="pdk" remote="github" revision="aosp-4.4" />
   <!--project path="frameworks/opt/telephony" name="spegelius/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-4.3" /-->
   
   <project path="external/sepolicy" name="spegelius/android_external_sepolicy" groups="pdk" remote="github" revision="aosp-4.4" />
