@@ -36,7 +36,7 @@
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   <!--project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-11.0" /-->
 
-  <project path="packages/apps/Bluetooth" name="spegelius/android_packages_apps_Bluetooth" remote="github" revision="aosp-4.4" /-->
+  <project path="packages/apps/Bluetooth" name="spegelius/android_packages_apps_Bluetooth" remote="github" revision="aosp-4.4" />
 
   <!--project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-11.0" /-->
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="cm-11.0" />
@@ -489,9 +489,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <!--project path="system/core" name="platform/system/core" groups="pdk" /-->
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <!--project path="system/extras" name="platform/system/extras" groups="pdk" /-->
+  <!--project path="system/media" name="platform/system/media" groups="pdk" /-->
+  <!--project path="system/netd" name="platform/system/netd" groups="pdk" /-->
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <!--project path="system/vold" name="platform/system/vold" groups="pdk" /-->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
