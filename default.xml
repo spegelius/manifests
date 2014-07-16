@@ -35,7 +35,7 @@
 
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
-  <!--project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-11.0" /-->
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-11.0" />
 
   <project path="packages/services/Telephony" name="spegelius/android_packages_services_Telephony" remote="github" revision="aosp-4.4" />
 
@@ -58,6 +58,7 @@
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-11.0" />
+  <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="github" revision="cm-11.0" />
 
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
@@ -89,7 +90,7 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <!--project path="bionic" name="platform/bionic" groups="pdk" /-->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -341,7 +342,7 @@
   <!--project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" /-->
   <!--project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" /-->
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+  <!--project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" /-->
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
