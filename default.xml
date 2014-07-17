@@ -48,7 +48,7 @@
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="github" revision="cm-11.0" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
   <!--project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-11.0" /-->
-  <!--project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-11.0" /-->
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-11.0" />
   <!--project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="github" revision="cm-11.0" /-->
   <!--project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" /-->
@@ -228,7 +228,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <!--project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" /-->
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
