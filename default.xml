@@ -51,7 +51,7 @@
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-11.0" />
   <!--project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="github" revision="cm-11.0" /-->
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="cm-11.0" /-->
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="cm-11.0" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="cm-11.0" />
   <!--project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" remote="github" revision="cm-11.0" /-->
   <!--project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="github" revision="cm-11.0" /-->
