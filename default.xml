@@ -16,7 +16,7 @@
 
   <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="aosp-4.4" />
   <project name="spegelius/android_device_samsung_jactivelte-common.git" path="device/samsung/jactivelte-common" remote="github" revision="aosp-4.4" />
-  <project name="spegelius/android_kernel_samsung_jactivelte.git" path="kernel/samsung/jactive" remote="github" revision="cm-11.0" />
+  <project name="spegelius/android_kernel_samsung_jactivelte.git" path="kernel/samsung/jactive" remote="github" revision="cm-11.0-dev" />
   <project name="spegelius/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="aosp-4.4" />
   <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0" />
 
@@ -55,6 +55,7 @@
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="cm-11.0" />
   <!--project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" remote="github" revision="cm-11.0" /-->
   <!--project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="github" revision="cm-11.0" /-->
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-11.0" />
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-11.0" />
@@ -313,7 +314,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <!--project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" /-->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
