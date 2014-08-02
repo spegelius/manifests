@@ -40,23 +40,27 @@
 
   <project path="packages/services/Telephony" name="spegelius/android_packages_services_Telephony" remote="github" revision="aosp-4.4" />
 
-  <!--project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-11.0" /-->
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-11.0" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
   <!--project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" remote="github" revision="cm-11.0" /-->
   <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" remote="github" revision="cm-11.0"/>
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-11.0" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="github" revision="cm-11.0" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
-  <!--project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-11.0" /-->
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-11.0" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="github" revision="cm-11.0" />
   <!--project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="github" revision="cm-11.0" /-->
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-11.0" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="cm-11.0" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="cm-11.0" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="github" revision="cm-11.0" />
   <!--project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" remote="github" revision="cm-11.0" /-->
-  <!--project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="github" revision="cm-11.0" /-->
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" groups="pdk" remote="github" revision="cm-11.0" />
 
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-11.0" />
@@ -296,7 +300,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <!--project path="external/sqlite" name="platform/external/sqlite" groups="pdk" /-->
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
@@ -319,7 +323,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
+  <!--project path="external/zlib" name="platform/external/zlib" groups="pdk" /-->
   <project path="external/zxing" name="platform/external/zxing" />
   <!--project path="frameworks/av" name="platform/frameworks/av" groups="pdk" /-->
   <!--project path="frameworks/base" name="platform/frameworks/base" /-->
