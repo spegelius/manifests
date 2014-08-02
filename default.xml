@@ -10,9 +10,17 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="spegelius/android_build" groups="pdk" remote="github" revision="aosp-4.4" >
+  <project path="build" name="spegelius/android_build" groups="pdk" remote="github" revision="aosp-4.4-opt" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <!-- LINARO TOOLCHAIN -->
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="4.8-androideabi" /> 
+
+  <!-- GOOGLE GCC TOOLCHAIN -->
+  <!--project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" /--> 
 
   <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="aosp-4.4" />
   <project name="spegelius/android_device_samsung_jactivelte-common.git" path="device/samsung/jactivelte-common" remote="github" revision="aosp-4.4" />
@@ -26,6 +34,8 @@
   
   <project path="external/libselinux" name="spegelius/android_external_libselinux" groups="pdk" remote="github" revision="aosp-4.4" />
   <project path="external/sepolicy" name="spegelius/android_external_sepolicy" groups="pdk" remote="github" revision="aosp-4.4" />
+
+  <project path="hardware/qcom/display-caf" name="spegelius/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="aosp-4.4-opt" />
   
   <!--project path="packages/apps/Phone" name="spegelius/android_packages_apps_Phone" remote="github" revision="aosp-4.3" />
   <project path="packages/apps/Gallery2" name="spegelius/android_packages_apps_Gallery2" remote="github" revision="aosp-4.3" /-->
@@ -83,7 +93,7 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="cm-11.0" />
+  <!--project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="cm-11.0" /-->
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" remote="github" revision="cm-11.0" />
