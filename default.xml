@@ -15,12 +15,12 @@
   </project>
 
   <!-- LINARO TOOLCHAIN -->
-  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
-  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="4.8-androideabi" /> 
+  <!--project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="4.8-androideabi" /--> 
 
   <!-- GOOGLE GCC TOOLCHAIN -->
-  <!--project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" /--> 
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" /> 
 
   <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="aosp-4.4" />
   <project name="spegelius/android_device_samsung_jactivelte-common.git" path="device/samsung/jactivelte-common" remote="github" revision="aosp-4.4" />
