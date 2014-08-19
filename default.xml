@@ -27,8 +27,8 @@
   <project path="external/libselinux" name="spegelius/android_external_libselinux" groups="pdk" remote="github" revision="aosp-4.4" />
   <project path="external/sepolicy" name="spegelius/android_external_sepolicy" groups="pdk" remote="github" revision="aosp-4.4" />
   
-  <!--project path="packages/apps/Phone" name="spegelius/android_packages_apps_Phone" remote="github" revision="aosp-4.3" />
-  <project path="packages/apps/Gallery2" name="spegelius/android_packages_apps_Gallery2" remote="github" revision="aosp-4.3" /-->
+  <!--project path="packages/apps/Phone" name="spegelius/android_packages_apps_Phone" remote="github" revision="aosp-4.3" /-->
+  <project path="packages/apps/Camera2" name="spegelius/android_packages_apps_Camera2" remote="github" revision="aosp-4.4" />
   <project path="packages/apps/DeskClock" name="spegelius/android_packages_apps_DeskClock" remote="github" revision="aosp-4.4" />
   
   <project path="system/core" name="spegelius/android_system_core" groups="pdk" remote="github" revision="aosp-4.4" />
@@ -386,7 +386,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
+  <!--project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" /-->
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
