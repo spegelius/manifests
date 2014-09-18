@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-11.0-official" />
+  <project name="CyanogenMod/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-11.0" />
   <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0-official" />
 
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
