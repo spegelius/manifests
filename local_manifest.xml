@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-12.0" />
+  
+  <project path="device/samsung/jflte" name="AntaresOne/android_device_samsung_jflte" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/jf-common" name="AntaresOne/android_device_samsung_jf-common" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/qcom-common" name="AntaresOne/android_device_samsung_qcom-common" remote="github" revision="cm-12.0" />
+  
+  <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0-official" />
+
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+
+</manifest>
+
+
+
+<!--Kernel-->
+<!--project path="kernel/samsung/jf" name="AntaresOne/android_kernel_samsung_jf" remote="github" revision="cm-12.0" /-->
+<!--Proprietary vendor blobs-->
+<!--project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" /-->
+
