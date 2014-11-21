@@ -8,14 +8,14 @@
   
   <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0-official" />
 
-  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+  <project path="kernel/samsung/jf" name="spegelius/android_kernel_samsung_jf" remote="github" revision="cm-12.0" />
 
 </manifest>
 
 
 
 <!--Kernel-->
-<!--project path="kernel/samsung/jf" name="AntaresOne/android_kernel_samsung_jf" remote="github" revision="cm-12.0" /-->
+<!--project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" /-->
 <!--Proprietary vendor blobs-->
 <!--project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" /-->
 
