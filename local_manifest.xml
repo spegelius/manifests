@@ -12,5 +12,5 @@
 
   <project name="Tasssadar/Team-Win-Recovery-Project.git" path="bootable/recovery" remote="github" revision="master" />
   <project name="Tasssadar/libbootimg.git" path="system/extras/libbootimg" remote="github" revision="master" />
-  <project name="Tasssadar/multirom.git" path="system/extras/multirom" remote="github" revision="master" />
+  <project name="spegelius/multirom.git" path="system/extras/multirom" remote="github" revision="master" />
 </manifest>
