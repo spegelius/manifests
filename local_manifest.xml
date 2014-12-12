@@ -13,7 +13,7 @@
   <project path="vendor/samsung" name="spegelius/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
   <!--project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0-official" /-->
 
-  <project name="spegelius/android_build.git" path="build" groups="pdk,tradefed" remote="github" revision="cm-12.0" />
+  <project name="spegelius/android_build.git" path="build" groups="pdk,tradefed" remote="github" revision="cm-12.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
