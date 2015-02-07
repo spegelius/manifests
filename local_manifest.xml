@@ -3,10 +3,9 @@
   <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-11.0-multirom" />
   <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0-jflteNF3" />
 
-  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="spegelius/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0-multirom" />
   <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="spegelius/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-11.0-multirom" />
 
