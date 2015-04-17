@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-12.0" />
+  <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-12.1" />
+  <!--project name="CyanogenMod/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-12.1" /-->
   
-  <project path="device/samsung/jflte" name="AntaresOne/android_device_samsung_jflte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/jf-common" name="spegelius/android_device_samsung_jf-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/qcom-common" name="AntaresOne/android_device_samsung_qcom-common" remote="github" revision="cm-12.0" />
+  <!--project path="device/samsung/jf-common" name="spegelius/android_device_samsung_jf-common" remote="github" revision="cm-12.1" /-->
+  <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-12.1" />
+  <!--project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" /-->
+  <project path="device/samsung/qcom-common" name="AntaresOne/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
   
   <!--Kernel-->
-  <project path="kernel/samsung/jf" name="spegelius/android_kernel_samsung_jf" remote="github" revision="cm-12.0" />
+  <!--project path="kernel/samsung/jf" name="spegelius/android_kernel_samsung_jf" remote="github" revision="cm-12.1" /-->
+  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-12.1" />
 
   <!--Proprietary vendor blobs-->
-  <project path="vendor/samsung" name="spegelius/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
-  <!--project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactivelte" remote="github" revision="cm-11.0-official" /-->
+  <project path="vendor/samsung" name="spegelius/proprietary_vendor_samsung" remote="github" revision="cm-12.1" />
 
-  <project name="spegelius/android_build.git" path="build" groups="pdk,tradefed" remote="github" revision="cm-12.0">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <project path="hudson" name="CyanogenMod/hudson" remote="github" revision="master" />
 
 </manifest>
-
-
-
-<!--project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" /-->
-
 
 
