@@ -17,6 +17,11 @@
 
   <project path="hudson" name="CyanogenMod/hudson" remote="github" revision="master" />
 
+  <project path="build" name="spegelius/android_build" groups="pdk,tradefed" revision="cm-12.1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+
 </manifest>
 
 
