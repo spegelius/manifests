@@ -3,8 +3,8 @@
   <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-12.1" />
   <!--project name="CyanogenMod/android_device_samsung_jactivelte.git" path="device/samsung/jactivelte" remote="github" revision="cm-12.1" /-->
   
-  <!--project path="device/samsung/jf-common" name="spegelius/android_device_samsung_jf-common" remote="github" revision="cm-12.1" /-->
-  <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/jf-common" name="spegelius/android_device_samsung_jf-common" remote="github" revision="cm-12.1-spege" />
+  <!--project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-12.1" /-->
   <!--project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" /-->
   <project path="device/samsung/qcom-common" name="AntaresOne/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
   
