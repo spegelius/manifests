@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-<project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
-<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-<project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="architoolchain-4.9-arm-linux-gnueabi-generic" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="architoolchain-5.2-arm-linux-gnueabihf" />
+
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="uber-4.9-arm-linux-androideabi" />
+
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <project name="ArchiDroid/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" revision="cm-12.1" />
+
+  <remove-project name="CyanogenMod/android_libcore" />
+  <project name="ArchiDroid/android_libcore" path="libcore" remote="github" revision="cm-12.1" />
+
+  <remove-project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8960" name="ArchiDroid/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
+ 
+
 </manifest>
