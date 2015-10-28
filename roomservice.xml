@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/samsung/jactivelte" name="spegelius/android_device_samsung_jactivelte.git" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/jactivelte" name="spegelius/android_device_samsung_jactivelte.git" remote="github" revision="slim_lp5.1" />
   <project path="device/samsung/jfltexx" name="SlimRoms/device_samsung_jfltexx.git" remote="github" revision="lp5.1" />
   <project path="device/samsung/jf-common" name="SlimRoms/device_samsung_jf-common" remote="github" revision="lp5.1" />
 
