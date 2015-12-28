@@ -15,4 +15,7 @@
   <project name="spegelius/Team-Win-Recovery-Project.git" path="bootable/recovery" remote="github" revision="master" />
   <project name="Tasssadar/libbootimg.git" path="system/extras/libbootimg" remote="github" revision="master" />
   <project name="spegelius/multirom.git" path="system/extras/multirom" remote="github" revision="master" />
+  
+  <remove-project name="platform/external/freetype" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="53c63001c4458baab36b4e38230f6b92ea6d5383" />
 </manifest>
