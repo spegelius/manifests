@@ -3,7 +3,7 @@
 
   <project path="device/samsung/jactivelte" name="spegelius/android_device_samsung_jactivelte.git" remote="github" revision="slim_lp5.1" />
   <!--project path="device/samsung/jfltexx" name="SlimRoms/device_samsung_jfltexx.git" remote="github" revision="lp5.1" /-->
-  <project path="device/samsung/jf-common" name="spegelius/android_device_samsung_jf-common.git" remote="github" revision="lp5.1" />
+  <project path="device/samsung/jf-common" name="spegelius/android_device_samsung_jf-common.git" remote="github" revision="slim_lp5.1" />
 
   <project path="device/samsung/qcom-common" name="SlimRoms/device_samsung_qcom-common" remote="github" revision="lp5.1" />
 
